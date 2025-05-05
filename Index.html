@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Darryl</title>
+    <style>
+        .paragraphClass {
+            font-size: 30px;
+            color: royalblue;
+        }
+
+        #Button {
+            margin-top: 15px;
+        }
+    </style>
+
+    <script>
+        function myFunc() {
+            let para = document.getElementById("p");
+            para.classList.toggle("paragraphClass");
+        }
+    </script>
+</head>
+
+<body>
+    <p id="p">
+        YOU FOUND DARRYL
+    </p>
+
+    <button id="Button" onclick="myFunc()">
+        Click Me
+    </button>
+</body>
+
+</html>
